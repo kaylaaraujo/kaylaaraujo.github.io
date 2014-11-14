@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.img {
+	display: block;
+	width: 100%;
+}
+
+.img-flex {
+	display: block;
+	width: 100%;
+}
+
+.main-img {
+	position: relative;
+	margin: 0;
+}
+
+.logo {
+	display: block;
+	margin: 1em 2%;
+	width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*NAVIGATION*/
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	bottom: 0;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	width: 46px;
+	
+	background: transparent url("../images/nav-icon.svg") no-repeat 0 0;
+	
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #000;
+	background-position: 0 -40px;
+}
+
+.nav {
+	background-color: #000;
+	float: right;
+}
+
+.nav < ul {
+	margin: 0;
+	padding: 0.8em 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.5em 10px;
+	
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #222;
+	
+	color:#fff;
+}
+
+.nav-bottom {
+	margin-top: 1.5em;
+}
+
+
+@media only screen and (min-width: 29em) { /*screen resolution 450px*/
+	.logo {
+		position: fixed;
+		top: 1em;
+		width: 100px;
+	}
+	
+	.img {
+		display: inline-block;
+		float: left;
+	}
+
+}
+
+@media only screen and (min-width: 48em) { /*screen resolution 770px*/
+	.logo {
+		position: absolute;
+		top: 1em;
+		max-width: 150px;
+	}
+
+}
+
+@media only screen and (min-width: 85em) { /*screen resolution 1360px*/
+
+}
+
+
+
+
+
+
