@@ -15,13 +15,18 @@ html {
     text-size-adjust: 100%;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 .masthead {
 	width: 100%;
-	background-color: rgba(101,101,101,1.00);
+	background-color: rgba(137,137,137,1.00);
 }
 
 .img {
@@ -43,8 +48,17 @@ html {
 .logo {
 	display: block;
 	margin: 1em 3%;
-	width: 100px;
-	float: right;
+	width: 50px;
+	float: left;
+}
+
+.work {
+	background-color: rgb(225,167,159);
+	background-size: cover;
+}
+
+.about {
+	background-color: #FFF7C5;
 }
 
 li {
