@@ -65,6 +65,10 @@ li {
 	list-style-type: none;
 }
 
+.p-about {
+	color: rgb(45,46,71);
+}
+
 /*NAVIGATION*/
 .nav-btn,
 .nav-btn:link,
