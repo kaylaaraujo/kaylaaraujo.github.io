@@ -61,6 +61,10 @@ body {
 	background-color: #FFF7C5;
 }
 
+.contact {
+	background-color: rgb(225,167,159);
+}
+
 li {
 	list-style-type: none;
 }
