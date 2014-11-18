@@ -62,11 +62,11 @@ body {
 }
 
 .contact {
-	background-color: #FFF7C5;
+	background-color: rgb(225,167,159);
 }
 
 .contact h1 {
-	color: rgb(225,167,159);
+	color: #FFF7C5;
 }
 
 li {
