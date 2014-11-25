@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-	width: 800px;
+	width: 350px;
 	margin: 50px auto;
   
   & > ul {
@@ -91,7 +91,6 @@ $gray: #EEE;
 		@include hover-style($blue);
 		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
 		padding: 10px;
-    width: 33.333%;
 
 	}
 	.icon-arrow {
@@ -194,3 +193,4 @@ $gray: #EEE;
   	@include transform(scaleY(0));
   }
 }
+
