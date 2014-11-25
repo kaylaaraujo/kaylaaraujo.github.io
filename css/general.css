@@ -26,13 +26,15 @@ body {
 
 .masthead {
 	width: 100%;
-	background-color: rgba(137,137,137,1.00);
+}
+
+header {
+	background-color: rgba(0,0,0,.5);
 }
 
 .img {
 	display: block;
 	width: 100%;
-	margin-bottom: 1em;
 }
 
 .img-flex {
@@ -101,7 +103,6 @@ li {
 }
 
 .nav {
-	background-color: #000;
 	float: right;
 }
 
@@ -145,6 +146,107 @@ li {
 	max-height: 50em;
 }
 
+
+/*WORK*/
+
+.dropdown a{
+		text-decoration: none;
+	}
+
+	[data-toggle="dropdown"] {
+		position: relative;
+		display: block;
+		color: white;
+		background: $blue;
+		@include double-shadow($blue);
+		@include hover-style($blue);
+		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
+		padding: 0;
+	}
+	
+.dropdown-menu {
+		max-height: 0;
+		overflow: hidden;
+		@include ul-nostyle;
+		background-size: cover;
+		background-color: rgba(255,255,255,1.00);
+		width: 100%;
+		margin-bottom: 0;
+
+}
+
+		li {
+			padding: 0;
+		}
+
+			a {
+				display: block;
+				color: darken($gray, 50%);
+				background: $gray;
+				@include double-shadow($gray);
+				@include hover-style($gray);
+				@include text-shadow(0 -1px 0 rgba(255,255,255,0.3));
+				padding: 10px 10px;
+			}
+
+	.show, .hide {
+		@include transform-origin(50%, 0%);
+	}
+
+	.show {
+		display: block;
+		max-height: 9999px;
+		@include transform(scaleY(1));
+		@include animation(showAnimation .5s ease-in-out);
+		@include transition(max-height 1s ease-in-out);
+	}
+
+	.hide {
+		max-height: 0;
+		@include transform(scaleY(0));
+		@include animation(hideAnimation .4s ease-out);
+		@include transition(max-height .6s ease-out);
+	}
+
+@include keyframes(showAnimation) {
+	0% {
+		@include transform(scaleY(0.1));
+	}
+	40% {
+		@include transform(scaleY(1.04));
+	}
+	60% {
+		@include transform(scaleY(0.98));
+	}
+	80% {
+		@include transform(scaleY(1.04));
+	}
+	100% {
+		@include transform(scaleY(0.98));
+	}				
+	80% {
+		@include transform(scaleY(1.02));
+	}
+	100% {
+		@include transform(scaleY(1));
+	}
+}
+
+@include keyframes(hideAnimation) {
+  0% {
+  	@include transform(scaleY(1));
+  }
+  60% {
+  	@include transform(scaleY(0.98));
+  }
+  80% {
+  	@include transform(scaleY(1.02));
+  }
+  100% {
+  	@include transform(scaleY(0));
+  }
+}
+
 @media only screen and (min-width: 28em) { /*screen resolution 450px*/
 	.masthead {
 		width: 100%;
@@ -169,7 +271,7 @@ li {
 	.nav li{
 		display: inline-block;
 		text-align: center;
-		width: 30%;
+		width: 33.333%;
 	}
 	
 	.nav > ul {
@@ -178,7 +280,7 @@ li {
 	
 	.nav-btn,
 	.nav-btn:link,
-	.nav-btn:visited{
+	.nav-btn:visited {
 		display: none;
 	}
 	
