@@ -170,7 +170,7 @@ li {
 		@include ul-nostyle;
 		background-size: cover;
 		background-color: rgba(255,255,255,1.00);
-		width: 100%;
+		width: 400%;
 		margin-bottom: 0;
 
 }
