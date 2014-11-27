@@ -157,10 +157,6 @@ li {
 		position: relative;
 		display: block;
 		color: white;
-		background: $blue;
-		@include double-shadow($blue);
-		@include hover-style($blue);
-		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
 		padding: 0;
 	}
 	
@@ -172,7 +168,6 @@ li {
 		background-color: rgba(255,255,255,1.00);
 		width: 400%;
 		margin-bottom: 0;
-
 }
 
 		li {
@@ -182,10 +177,6 @@ li {
 			a {
 				display: block;
 				color: darken($gray, 50%);
-				background: $gray;
-				@include double-shadow($gray);
-				@include hover-style($gray);
-				@include text-shadow(0 -1px 0 rgba(255,255,255,0.3));
 				padding: 10px 10px;
 			}
 
