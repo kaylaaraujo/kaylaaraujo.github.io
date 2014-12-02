@@ -1,14 +1,10 @@
 /* Morph Button: Default Styles */
 
-img {
-	width: 100%;
-	text-align: center;
-}
-
 .morph-button {
 	position: relative;
 	display: inline-block;
-	margin: 0 auto;
+	margin: 0.5em 0.5em;
+	width: 100%;
 }
 
 .morph-button > button {
@@ -98,6 +94,7 @@ img {
 
 /* Morph Button Style: Overlay */
 .morph-button.morph-button-overlay {
+	width: auto;
 }
 
 .morph-button-overlay .morph-content {
