@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
 	<title>Portfolio Website</title>
-	<link href="css/general.css" rel="stylesheet">
-	<link href="css/grid.css" rel="stylesheet">
-	<link href="css/typography.css" rel="stylesheet">
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/content.css" />
+	<link href="css/general.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
 	<script src="js/modernizr.custom.js"></script>
 
     <meta name="handheldfriendly" content="true">
@@ -43,8 +43,8 @@
 
 <!--WORKS** -->
 	<section>
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -59,8 +59,8 @@
 					</div>
 				</div><!-- morph-button -->
 				
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -77,8 +77,8 @@
 					</div>
 				</div>
 				
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -95,8 +95,8 @@
 					</div>
 				</div>
 				
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -113,8 +113,8 @@
 					</div>
 				</div>
 				
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -131,8 +131,8 @@
 					</div>
 				</div>
 				
-				<div class="morph-button morph-button-overlay morph-button-fixed">
-					<button type="button"><img src="http://placehold.it/300x300" alt=""></button>
+				<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
+					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
 					<div class="morph-content">
 						<div>
 							<div class="content-style-overlay">
@@ -155,7 +155,7 @@
 <section class="contact">
 		<div id="contact" class="grid">
 			<div>
-				<h1 class="yotta1">LET'S CHAT!</h1>	
+				<h1 class="exa">LET'S CHAT!</h1>	
 			</div>
 			
 			<ul>
@@ -174,9 +174,12 @@
 	</nav>	
 
 </footer>
-
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/main.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/uiMorphingButton_fixed.js"></script>
+
 		<script>
 			(function() {	
 				var docElem = window.document.documentElement, didScroll, scrollPosition;
