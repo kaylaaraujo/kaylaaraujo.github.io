@@ -64,7 +64,7 @@ header {
 }
 
 .contact {
-	background-color: rgb(225,167,159);
+	background-color: rgba(40,40,40,1.00);
 }
 
 .contact h1 {
@@ -153,7 +153,7 @@ li {
 /*WORK*/
 
 
-@media only screen and (min-width: 28em) { /*screen resolution 450px*/
+@media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
 	
 	.logo {
@@ -161,7 +161,7 @@ li {
 		margin-left: 10%;
 	}
 	
-	.img {
+	.port-img {
 		display: inline-block;
 		float: left;
 	}
@@ -190,6 +190,11 @@ li {
 	}
 		
 
+}
+
+@media only screen and (min-width: 37.5em) { /*screen resolution 600px*/
+
+		
 }
 
 @media only screen and (min-width: 48em) { /*screen resolution 770px*/
