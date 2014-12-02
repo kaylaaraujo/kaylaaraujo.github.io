@@ -32,7 +32,7 @@ header {
 	background-color: rgba(0,0,0,.5);
 }
 
-.img {
+.port-img {
 	display: block;
 	width: 100%;
 }
@@ -146,14 +146,15 @@ li {
 	max-height: 50em;
 }
 
+.masthead {
+		width: 100%;
+}
 
 /*WORK*/
 
 
 @media only screen and (min-width: 28em) { /*screen resolution 450px*/
-	.masthead {
-		width: 100%;
-	}
+	
 	
 	.logo {
 		width: 90px;
