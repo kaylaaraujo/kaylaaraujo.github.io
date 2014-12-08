@@ -37,7 +37,7 @@
 	</header>
 	-->
 	
-	<header>
+	<header class="display-nav">
 		<div class="unit unit-s-2-3 unit-m-1-4 unit-l-1-6">
 			<a href="#home"><img class="logo" src="images/logo.svg" alt="logo"></a>
 		</div>
@@ -53,11 +53,11 @@
 
 	
 	<div id="home">
-		<img class="img-flex" src="http://placehold.it/500x300" alt="illustration">
+		<img class="img-flex" src="images/cover-photo-crop.jpg" alt="cover photo">
 	</div>
 
 <!--WORKS** -->
-	<section>
+	<section class="work">
 		<h1>Check out my work</h1>
 				<div class="grid unit unit-s-1 unit-s-1-2 unit-l-1-3 unit-l-1-4 morph-button morph-button-overlay morph-button-fixed">
 					<button type="button"><img class="port-img" src="http://placehold.it/300x300" alt=""></button>
@@ -297,20 +297,7 @@
 		<script src="js/classie.js"></script>
 		<script src="js/uiMorphingButton_fixed.js"></script>
 		
-		<script type="text/javascript">
-			(function($) {          
-				$(document).ready(function(){                    
-					$(window).scroll(function(){                          
-						if ($(this).scrollTop() > 200) {
-							$('#menu').fadeIn(500);
-						} else {
-							$('#menu').fadeOut(500);
-						}
-					});
-				});
-			})(jQuery);
-		</script>
-
+		
 		<script>
 			(function() {	
 				var docElem = window.document.documentElement, didScroll, scrollPosition;
@@ -409,6 +396,20 @@
 				});
 			})();
 		</script>
+		<script type="text/javascript">
+			(function($) {          
+				$(document).ready(function(){                    
+					$(window).scroll(function(){                          
+						if ($(this).scrollTop() > 200) {
+							$('.display-nav').fadeIn(500);
+						} else {
+							$('.display-nav').fadeOut(500);
+						}
+					});
+				});
+			})(jQuery);
+		</script>
+
 		
 	</body>
 </html>
