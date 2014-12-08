@@ -32,6 +32,9 @@ body {
 header {
 	height: 8em;
 	background-color: rgba(0,0,0,1.00);
+	position: fixed;
+	display: none;
+	z-index:9999;
 }
 
 .port-img {
