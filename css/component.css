@@ -1,5 +1,22 @@
 /* Morph Button: Default Styles */
 
+.email-button {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+}
+
+.contact button {
+	width: 100%;
+	border: none;
+}
+	
+
+button {
+	background-color: rgba(52,52,52,0.0);
+}
+
 .morph-button {
 	position: relative;
 	display: inline-block;
@@ -13,7 +30,17 @@
 	overflow: hidden;
 }
 
+.email-button > button {
+	position: relative;
+	border: none;
+	overflow: hidden;
+}
+
 .morph-button.open > button {
+	pointer-events: none;
+}
+
+.email-button.open > button {
 	pointer-events: none;
 }
 
@@ -25,16 +52,16 @@
 	pointer-events: auto;
 }
 
-/* Common styles for overlay and modal type (fixed morph) */
-.morph-button-fixed,
-.morph-button-fixed .morph-content {
-
+.email-button.open .morph-content {
+	pointer-events: auto;
 }
+
+/* Common styles for overlay and modal type (fixed morph) */
 
 .morph-button-fixed > button {
 	z-index: 1000;
-	-webkit-transition: opacity 0.1s 0.5s;
-	transition: opacity 0.1s 0.5s;
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
 }
 
 .morph-button-fixed.open > button {
@@ -320,37 +347,6 @@
 	width: 260px;
 }
 
-/* Morph Button Style: Sidebar */
-.morph-button-sidebar,
-.morph-button-sidebar .morph-content {
-	width: 60px;
-	height: 60px;
-}
-
-.morph-button-sidebar {
-	position: fixed;
-	bottom: 50px;
-	left: 50px;
-}
-
-.morph-button-sidebar > button {
-	line-height: 60px;
-	font-size: 1.6em;
-	padding: 0;
-}
-
-.morph-button-sidebar .morph-content {
-	background: #e85657;
-}
-
-.morph-button-sidebar.open .morph-content {
-	top: 0 !important;
-	left: 0 !important;
-	width: 300px;
-	height: 100%;
-	overflow: hidden;
-	-webkit-backface-visibility: hidden;
-}
 
 /* Let's add some nice easing for all cases */
 .morph-button .morph-content,
