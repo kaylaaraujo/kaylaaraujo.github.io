@@ -291,10 +291,25 @@
 
 </footer>
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/waypoints.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/uiMorphingButton_fixed.js"></script>
+		
+		<script type="text/javascript">
+			(function($) {          
+				$(document).ready(function(){                    
+					$(window).scroll(function(){                          
+						if ($(this).scrollTop() > 200) {
+							$('#menu').fadeIn(500);
+						} else {
+							$('#menu').fadeOut(500);
+						}
+					});
+				});
+			})(jQuery);
+		</script>
 
 		<script>
 			(function() {	
@@ -394,5 +409,6 @@
 				});
 			})();
 		</script>
+		
 	</body>
 </html>
