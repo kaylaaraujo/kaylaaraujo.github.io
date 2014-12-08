@@ -186,10 +186,36 @@ nav > ul {
 		margin-left: 10%;
 	}
 	
+	.nav-top{
+		padding-top: 0;
+	}
+	
 	.port-img {
 		display: inline-block;
 		float: left;
 	}
+	
+	.social {
+		padding: 0 2%;
+	}
+	
+	.contact ul {
+		max-width: 400px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	header {
+		width: 100%;
+		z-index: 3000;
+	}
+
+
+}
+
+@media only screen and (min-width: 28.75em) { /*screen resolution 600px*/
+
+		
 	
 	.nav{
 		float: right;
@@ -213,23 +239,10 @@ nav > ul {
 		float: right;
 		max-height: 8rem;
 		margin-right: 2em;
+		padding-top: 2em;
+		max-width: 400px;
 	}
 	
-	.social {
-		padding: 0 6%;
-	}
-	
-	header {
-		width: 100%;
-		z-index: 3000;
-	}
-
-
-}
-
-@media only screen and (min-width: 37.5em) { /*screen resolution 600px*/
-
-		
 }
 
 @media only screen and (min-width: 48em) { /*screen resolution 770px*/
