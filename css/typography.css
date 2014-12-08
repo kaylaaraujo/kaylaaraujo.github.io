@@ -40,6 +40,10 @@ a:active {
 	padding: 0 5%;
 }
 
+.morph-content p {
+	color: rgba(131,131,131,1.00);
+}
+
 dt {
 	margin-left: 3%;
 }
@@ -59,7 +63,11 @@ p {
 h1, h2, h3, h4, h5, h6,
 li {
 	font: normal 100%/1.5 "Open Sans", sans-serif;
-	color: rgb(225,167,159);
+	color: #FFFFFF;
+}
+
+.content-style-overlay h2 {
+	color: #C22A2D;
 }
 
 .yotta1 {
