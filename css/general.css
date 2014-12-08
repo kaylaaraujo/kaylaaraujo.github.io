@@ -30,9 +30,12 @@ body {
 }
 
 header {
-	height: 8em;
-	background-color: rgba(0,0,0,1.00);
+	height: 7.25em;
+	background-color: rgba(30,25,22,0.95);
 	position: fixed;
+}
+
+.display-nav {
 	display: none;
 	z-index:9999;
 }
@@ -60,7 +63,7 @@ header {
 }
 
 .work {
-	background-color: rgb(225,167,159);
+	background-color: #171B22;
 	background-size: cover;
 }
 
@@ -242,7 +245,7 @@ nav > ul {
 		float: right;
 		max-height: 8rem;
 		margin-right: 2em;
-		padding-top: 2em;
+		padding-top: 2.5em;
 		max-width: 400px;
 	}
 	
