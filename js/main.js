@@ -1,6 +1,7 @@
 var navTop = document.querySelector('.nav-top');
 var dropdown = document.querySelectorAll('.dropdown');
 var dropdownArray = Array.prototype.slice.call(dropdown,0);
+var $header = $('.header-section');
 
 	
 	document.querySelector('.nav-btn').addEventListener('click', function(e){
@@ -17,4 +18,8 @@ var dropdownArray = Array.prototype.slice.call(dropdown,0);
 	    this.setAttribute('data-state', 'active');
 		}
 	});
+	
+	$headerSection.waypoint(function () {
+	$header.addClass('js-header-fade');
+}, { offset: '50%' });
 	
