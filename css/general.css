@@ -76,7 +76,17 @@ header {
 }
 
 .about {
-	background-color: #FFF7C5;
+	background-color: #1D1D1D;
+}
+
+.about-content {
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about p {
+	text-align: left;
 }
 
 .contact {
@@ -126,6 +136,14 @@ li {
 footer nav li {
 	width: 100%;
 	display: block;
+}
+
+footer nav {
+	max-width: 450px;
+}
+
+.footer {
+	background-color: #171B22;
 }
 
 nav li {
@@ -193,6 +211,15 @@ nav > ul {
 	padding: 0 3%;
 }
 
+.port-img:hover,
+.port-img:focus,
+.port-img:active {
+	opacity: 0.4;
+	-moz-transition: all 800ms linear;
+	-o-transition: all 800ms linear;
+	-webkit-transition: all 150ms linear;
+}
+
 @media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
 	.logo {
@@ -229,6 +256,10 @@ nav > ul {
 	}
 	
 	.contact h1 {
+		font-size: 34px;
+	}
+	
+	.about h1 {
 		font-size: 34px;
 	}
 
@@ -284,6 +315,14 @@ nav > ul {
 	.contact h1 {
 		font-size: 50px;
 	}
+	
+	.about h1 {
+		font-size: 50px;
+	}
+	
+	.about-content {
+		max-width: 600px;
+	}
 }
 
 
@@ -294,6 +333,10 @@ nav > ul {
 	}
 	
 	.contact h1 {
+		font-size: 70px;
+	}
+	
+	.about h1 {
 		font-size: 70px;
 	}
 
