@@ -2,13 +2,42 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>404 Error</title>
+	<title>404 Error</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/content.css" />
+	<link href="css/404.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
 </head>
 
 <body>
-
-<h1>Whoops! Something went wrong.</h1>
-<h2>404 Error - File not Found</h2>
-
+	<header>
+		<div class="unit unit-s-2-3 unit-m-1-4 unit-l-1-6">
+			<a href="#home"><img class="logo" src="images/logo-full.svg" alt="logo"></a>
+		</div>
+		<a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+		<nav class="nav nav-top unit-s-1 unit-m-1-2" data-state="collapsed">
+			<ul>
+				<li><a href="http://www.kaylaraujo.ca/index/work">WORK</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<div class="error">
+		<h1 class="yotta1">Whoops!</h1>
+		<h2 class="yotta">Something went wrong.</h2>
+		<h2>404 Error - File not Found</h2>
+	</div>
+	
+	<div id="home">
+		<img class="img-flex" src="images/cover-photo-crop.jpg" alt="cover photo">
+	</div>
+	
 </body>
 </html>
