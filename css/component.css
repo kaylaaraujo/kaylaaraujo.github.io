@@ -46,6 +46,7 @@ button {
 
 .morph-content {
 	pointer-events: none;
+	z-index: 1000;
 }
 
 .morph-button.open .morph-content {
