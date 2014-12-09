@@ -33,9 +33,6 @@
 	text-align: center;
 }
 
-.content-style-overlay img {
-	width: 60%;
-}
 
 .content-style-overlay h2 {
 	margin: 0 0 1em 0;
@@ -60,11 +57,11 @@
 	.content-style-overlay p{
 		font-size: 1.25em;
 	}
-	
-	.content-style-overlay img {
-		width: 100%;
-	}
 }
+
+@media screen and (min-width: 40px) {
+	
+	
 
 @media screen and (max-width: 770px) {
 	.content-style-overlay {
