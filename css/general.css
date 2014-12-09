@@ -29,6 +29,10 @@ body {
 	background-color: rgba(0,0,0,1.00)
 }
 
+a:focus {
+	border: medium solid #8B8B8B;
+}
+
 header {
 	height: 7.25em;
 	background-color: rgba(30,25,22,0.95);
