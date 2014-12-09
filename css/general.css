@@ -187,7 +187,8 @@ nav > ul {
 
 .nav-top {
 	max-height: 0;
-	padding-top: 2em;
+	overflow: hidden;
+	background-color: rgba(30,25,22,0.95);
 	
 	-moz-transition: all 800ms linear;
 	-o-transition: all 800ms linear;
