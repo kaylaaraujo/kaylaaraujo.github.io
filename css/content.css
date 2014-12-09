@@ -13,6 +13,7 @@
 	background-image: url(../images/close-icon.svg);
 	text-indent: 100%;
 	white-space: nowrap;
+	margin-top: 9em;
 }
 
 .icon-close:hover {
@@ -22,6 +23,10 @@
 /* Styles for dummy content */
 
 /* Style for overlay */
+
+.overlay-content {
+	margin-top: 9em;
+}
 
 .content-style-overlay {
 	padding: 100px 50px;
@@ -60,7 +65,6 @@
 		width: 100%;
 	}
 }
-
 
 @media screen and (max-width: 770px) {
 	.content-style-overlay {
