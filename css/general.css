@@ -48,6 +48,16 @@ header {
 	margin-right: auto;
 }
 
+/*NEW CODE*/
+
+.portfolio-piece {
+	display: block;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
 .port-img {
 	display: block;
 	width: 100%;
