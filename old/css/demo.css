@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather+Sans:800);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+@font-face {
+	font-family: 'Blokk';
+	src: url('../fonts/blokk/BLOKKRegular.eot');
+	src: url('../fonts/blokk/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/blokk/BLOKKRegular.woff') format('woff'),
+		 url('../fonts/blokk/BLOKKRegular.svg#BLOKKRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+
+a, button {
+	color: #553445;
+	text-decoration: none;
+	outline: none;
+}
+
+/* Top Navigation Style */
+
+section {
+	padding: 1em;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+
+section > p:first-child {
+	text-align: center;
+}
+
+section.related {
+	text-align: center;
+}
+
