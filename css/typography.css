@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-  font: normal 100%/1.5 "raleway", sans-serif;
+  font: normal 100%/1.5 "Oxygen", sans-serif;
   color: rgba(245,243,244,1.00);
   background-color: #fffff; 
 }
@@ -55,19 +55,18 @@ fieldset, pre, table {
 }
 
 p {
-	font: normal 100%/1.5 "Open Sans", sans-serif;
-	color: rgba(245,243,244,1.00);
+	font: normal 100%/1.5 "Oxygen", sans-serif;
 }
 
 h1 {
-	color: #fffffff;
-	font: normal 100%/1.5 "Raleway", sans-serif;
+	color: black;
+	font: normal 100%/1.5 "Oxygen", sans-serif;
 }
 
 
 h2, h3, h4, h5, h6,
 li {
-	font: normal 100%/1.5 "Open Sans", sans-serif;
+	font: normal 100%/1.5 "Oxygen", sans-serif;
 	color: #171B22;
 }
 

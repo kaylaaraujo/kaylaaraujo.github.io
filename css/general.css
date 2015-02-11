@@ -42,7 +42,7 @@ header {
 }
 
 .cover-logo {
-	width: 45%;
+	width: 90%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -51,6 +51,7 @@ header {
 
 .home {
 	height: 600px;
+	margin-bottom: 15em;
 }
 
 /*NEW CODE*/
@@ -92,7 +93,8 @@ header {
 }
 
 .about {
-	background-color: #1D1D1D;
+	background-color: #fff;
+	text-align: center;
 }
 
 .about-content {
@@ -102,16 +104,18 @@ header {
 }
 
 .about p {
-	text-align: left;
+	color: black;
+	margin-bottom: 2em;
 }
 
 .contact {
-	background-color: rgba(40,40,40,1.00);
+	background-color: #FCD2C5;
 	padding: 1em 1em;
+	height: 300px;
 }
 
 .contact h1 {
-	color: #FFF7C5;
+	color: #fff;
 }
 
 .contact ul {
@@ -159,7 +163,8 @@ footer nav {
 }
 
 .footer {
-	background-color: #171B22;
+	background-color: rgba(5,25,47,1);
+	overflow: hidden;
 }
 
 nav li {
@@ -236,6 +241,19 @@ nav > ul {
 	-o-transition: all 800ms linear;
 	-webkit-transition: all 150ms linear;
 }
+
+@media only screen and (min-width: 16em) { /*screen resolution 250px*/
+
+	.cover-logo {
+		width: 90%;
+	}
+
+	.home {
+		height: 100%;
+		margin-bottom: 3em;
+	}
+}
+
 
 @media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
@@ -319,6 +337,11 @@ nav > ul {
 	.logo {
 		top: 1em;
 		max-width: 150px;
+	}
+
+	.cover-logo {
+		max-width: 600px;
+		padding-top: 2em;
 	}
 
 }
