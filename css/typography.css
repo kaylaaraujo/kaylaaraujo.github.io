@@ -2,9 +2,9 @@
 /* CSS Document */
 
 html {
-  font: normal 100%/1.5 "Sintony", sans-serif;
+  font: normal 100%/1.5 "raleway", sans-serif;
   color: rgba(245,243,244,1.00);
-  background-color: rgba(5,54,67,1.00); 
+  background-color: #fffff; 
 }
 
 ::selection {
@@ -55,13 +55,13 @@ fieldset, pre, table {
 }
 
 p {
-	font: normal 100%/1.5 "sintony", sans-serif;
+	font: normal 100%/1.5 "Open Sans", sans-serif;
 	color: rgba(245,243,244,1.00);
 }
 
 h1 {
 	color: #fffffff;
-	font: normal 100%/1.5 "Open Sans", sans-serif;
+	font: normal 100%/1.5 "Raleway", sans-serif;
 }
 
 
