@@ -30,8 +30,8 @@ body {
 }
 
 header {
-	height: 7.25em;
-	background-color: rgba(30,25,22,0.95);
+	height: 5em;
+	background-color: rgba(5,25,47,0.95);
 	position: fixed;
 	width: 100%;
 }
@@ -42,10 +42,16 @@ header {
 }
 
 .cover-logo {
-	width: 45%;
-	position: absolute;
+	width: 90%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 5em;
+}
+
+.home {
+	height: 600px;
+	margin-bottom: 15em;
 }
 
 /*NEW CODE*/
@@ -75,18 +81,20 @@ header {
 
 .logo {
 	display: block;
-	margin: 1em 3%;
+	margin: 0.5em 3%;
 	width: 100px;
 	float: left;
 }
 
 .work {
-	background-color: #171B22;
+	background-color: #fff;
 	background-size: cover;
+	overflow: hidden;
 }
 
 .about {
-	background-color: #1D1D1D;
+	background-color: #fff;
+	text-align: center;
 }
 
 .about-content {
@@ -96,16 +104,18 @@ header {
 }
 
 .about p {
-	text-align: left;
+	color: black;
+	margin-bottom: 2em;
 }
 
 .contact {
-	background-color: rgba(40,40,40,1.00);
+	background-color: #FCD2C5;
 	padding: 1em 1em;
+	height: 300px;
 }
 
 .contact h1 {
-	color: #FFF7C5;
+	color: #fff;
 }
 
 .contact ul {
@@ -153,7 +163,8 @@ footer nav {
 }
 
 .footer {
-	background-color: #171B22;
+	background-color: rgba(5,25,47,1);
+	overflow: hidden;
 }
 
 nav li {
@@ -198,7 +209,7 @@ nav > ul {
 .nav-top {
 	max-height: 0;
 	overflow: hidden;
-	background-color: rgba(30,25,22,0.95);
+	background-color: rgba(0,0,0,0);
 	
 	-moz-transition: all 800ms linear;
 	-o-transition: all 800ms linear;
@@ -231,10 +242,23 @@ nav > ul {
 	-webkit-transition: all 150ms linear;
 }
 
+@media only screen and (min-width: 16em) { /*screen resolution 250px*/
+
+	.cover-logo {
+		width: 90%;
+	}
+
+	.home {
+		height: 100%;
+		margin-bottom: 3em;
+	}
+}
+
+
 @media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
 	.logo {
-		width: 120px;
+		width: 100px;
 		margin-left: 10%;
 	}
 	
@@ -303,7 +327,7 @@ nav > ul {
 		float: right;
 		max-height: 8rem;
 		margin-right: 2em;
-		padding-top: 2.5em;
+		padding-top: 1.5em;
 		max-width: 400px;
 	}
 	
@@ -313,6 +337,11 @@ nav > ul {
 	.logo {
 		top: 1em;
 		max-width: 150px;
+	}
+
+	.cover-logo {
+		max-width: 600px;
+		padding-top: 2em;
 	}
 
 }

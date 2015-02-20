@@ -58,7 +58,7 @@
 
 }
 
-@media only screen and (min-width: 37.5em) { /*screen resolution 600px*/
+@media only screen and (min-width: 21em) { /*screen resolution 350px*/
 
 	.unit-s-1-2 {
 		width: 50%;
