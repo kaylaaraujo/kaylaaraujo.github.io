@@ -15,6 +15,17 @@ html {
     text-size-adjust: 100%;
 }
 
+.error {
+	position: absolute;
+	text-align: left;
+	margin-top: 12em;
+	margin-left: 5%;
+}
+
+.error h2 {
+	color: #ffffff;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -48,21 +59,6 @@ header {
 	margin-right: auto;
 }
 
-/*NEW CODE*/
-
-.portfolio-piece {
-	display: block;
-	padding: 0;
-	margin: 0;
-	position: relative;
-	overflow: hidden;
-}
-
-.port-img {
-	display: block;
-	width: 100%;
-}
-
 .img-flex {
 	display: block;
 	width: 100%;
@@ -80,45 +76,6 @@ header {
 	float: left;
 }
 
-.work {
-	background-color: #171B22;
-	background-size: cover;
-}
-
-.about {
-	background-color: #1D1D1D;
-}
-
-.about-content {
-	max-width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.about p {
-	text-align: left;
-}
-
-.contact {
-	background-color: rgba(40,40,40,1.00);
-	padding: 1em 1em;
-}
-
-.contact h1 {
-	color: #FFF7C5;
-}
-
-.contact ul {
-	padding-left: 0;
-}
-
-li {
-	list-style-type: none;
-}
-
-.p-about {
-	color: rgb(45,46,71);
-}
 
 /*NAVIGATION*/
 .nav-btn,
@@ -141,19 +98,6 @@ li {
 .nav-btn:focus,
 .nav-btn:active {
 	background: transparent url("../images/drop-open-hover-icon.svg") no-repeat 0 0;
-}
-
-footer nav li {
-	width: 100%;
-	display: block;
-}
-
-footer nav {
-	max-width: 450px;
-}
-
-.footer {
-	background-color: #171B22;
 }
 
 nav li {
@@ -197,8 +141,7 @@ nav > ul {
 
 .nav-top {
 	max-height: 0;
-	overflow: hidden;
-	background-color: rgba(30,25,22,0.95);
+	padding-top: 2em;
 	
 	-moz-transition: all 800ms linear;
 	-o-transition: all 800ms linear;
@@ -214,22 +157,6 @@ nav > ul {
 		width: 100%;
 }
 
-/*WORK*/
-
-
-.social {
-	float: left;
-	padding: 0 3%;
-}
-
-.port-img:hover,
-.port-img:focus,
-.port-img:active {
-	opacity: 0.4;
-	-moz-transition: all 800ms linear;
-	-o-transition: all 800ms linear;
-	-webkit-transition: all 150ms linear;
-}
 
 @media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
@@ -242,38 +169,10 @@ nav > ul {
 		padding-top: 0;
 	}
 	
-	.port-img {
-		display: inline-block;
-		float: left;
-	}
-	
-	.social {
-		padding: 0 2%;
-	}
-	
-	.contact ul {
-		max-width: 400px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
 	header {
 		width: 100%;
 		z-index: 3000;
 	}
-	
-	.work h1 {
-		font-size: 34px;
-	}
-	
-	.contact h1 {
-		font-size: 34px;
-	}
-	
-	.about h1 {
-		font-size: 34px;
-	}
-
 
 }
 
@@ -319,38 +218,12 @@ nav > ul {
 
 @media only screen and (min-width: 54.25em) {
 	
-	.work h1 {
-		font-size: 50px;
-	}
 	
-	.contact h1 {
-		font-size: 50px;
-	}
-	
-	.about h1 {
-		font-size: 50px;
-	}
-	
-	.about-content {
-		max-width: 600px;
-	}
-}
 
 
 @media only screen and (min-width: 95em) { /*screen resolution 1360px*/
 
-	.work h1 {
-		font-size: 70px;
-	}
 	
-	.contact h1 {
-		font-size: 70px;
-	}
-	
-	.about h1 {
-		font-size: 70px;
-	}
-
 
 }
 
