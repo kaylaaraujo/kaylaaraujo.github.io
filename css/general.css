@@ -248,6 +248,12 @@ nav ul li {
 	padding: 0 3%;
 }
 
+.social:hover,
+.social:focus,
+.social:active {
+	opacity: 80%;
+}
+
 .me-width {
 	width: 80%;
 	margin-left: auto;
@@ -268,7 +274,7 @@ nav ul li {
 	-webkit-transition: all 150ms linear;
 }
 
-@media only screen and (min-width: 16em) { /*screen resolution 250px*/
+@media only screen and (min-width: 15em) { /*screen resolution 250px*/
 
 	.cover-logo {
 		width: 90%;
@@ -293,6 +299,19 @@ nav ul li {
 	footer nav ul li {
 		background-color: #fff;
 	}
+ 
+	footer .nav a,
+	footer .nav a:link,
+	footer .nav a:visited {
+		color: rgba(5,25,47,1);
+	}
+
+	footer .nav a:hover,
+	footer .nav a:focus,
+	footer .nav a:active {
+		color: #FCD2C5;
+		background-color: rgba(0,0,0,0);
+	}
 
 
 	.nav-top {
@@ -300,18 +319,46 @@ nav ul li {
 
 	}
 
-	.about-content {
-		width: 80%;
+	.about {
+		height: 1100px;
 	}
 
-	.contact {
-		height: 525px;
+	.about-content {
+		width: 80%;
+		padding-top: 1em;
 	}
 
 	.about p {
 		font-size: 20px;
 	}
 
+	.about-section {
+		padding-top: 5em;
+	}
+
+	.about-section h1 {
+		font-size: 33px;
+	}
+
+	.me-width {
+		width: 100%;
+	}
+
+
+	.contact {
+		height: 525px;
+	}
+
+	.contact h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.social {
+		padding: 5%;
+	}
+
+	
 }
 
 
@@ -333,7 +380,7 @@ nav ul li {
 	}
 	
 	.social {
-		padding: 0 6%;
+		padding: 6%;
 	}
 
 	.contact {
@@ -344,6 +391,10 @@ nav ul li {
 		max-width: 600px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.about-content {
+		padding-top: 7em;
 	}
 	
 	header {
@@ -405,7 +456,52 @@ nav ul li {
 		margin-right: 2em;
 		max-width: 400px;
 	}
+
+	.about {
+		height: 800px;
+	}
+
+	.about-content {
+		margin-top: 5em;
+	}
+
+	.contact {
+		height: 400px;
+	}
+
+	.contact h1 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+
+	.social {
+		padding: 2%;
+	}
 	
+}
+
+@media only screen and (min-width: 38em) {
+	.social {
+		padding: 4%;
+	}
+
+	.about h1 {
+		font-size: 50px;
+	}
+
+	.about-content {
+		padding-top: 8em;
+	}
+
+	.contact {
+		height: 550px;
+	}
+
+	.contact h1 {
+		font-size: 50px;
+		line-height: 55px;
+	}
+
 }
 
 @media only screen and (min-width: 48em) { /*screen resolution 770px*/
@@ -420,7 +516,32 @@ nav ul li {
 	}
 
 	.contact {
-		height: 600px;
+		height: 650px;
+	}
+
+	.contact h1 {
+		padding-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.social {
+		padding: 3%;
+	}
+
+	.social-media {
+		padding-top: 0;
+	}
+
+	.about-content {
+		margin-top: 7em;
+	}
+
+	.about-section {
+		padding-top: 5em;
+	}
+
+	.about {
+		height: 800px;
 	}
 
 }
@@ -433,27 +554,72 @@ nav ul li {
 	
 	.contact h1 {
 		font-size: 50px;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
+	}
+
+	.about {
+		height: 1200px;
+	}
+
+	.about-section {
+		padding-top: 12em;
+	}
+
+	.about h1 {
+		font-size: 60px;
+		}
 	}
 	
 	.about-content {
 		max-width: 600px;
+		margin-top: 14em;
 	}
 }
 
+@media only screen and (min-width: 70em) {
+	.about-content {
+		margin-top: 13em;
+	}
+
+}
 
 @media only screen and (min-width: 95em) { /*screen resolution 1360px*/
 
+	.home {
+		margin-bottom: 15em;
+	}
+
+	.cover-logo {
+		padding-top: 10em;
+		max-width: 800px;
+	}
+
 	.work h1 {
 		font-size: 70px;
+	}
+
+	.contact {
+		height: 700px;
 	}
 	
 	.contact h1 {
 		font-size: 70px;
 	}
+
+	.about {
+		height: 1500px;
+	}
 	
 	.about h1 {
 		font-size: 70px;
+	}
+
+	.about-content {
+		margin-top: 20em;
+	}
+
+	.social-media {
+		padding-top: 0;
 	}
 
 
