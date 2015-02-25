@@ -28,7 +28,11 @@
 	width: 66.6666%;
 }
 
-@media only screen and (min-width: 29em) { /*screen resolution 450px*/
+.unit-s-1-2 {
+	width: 50%;
+}
+
+@media only screen and (min-width: 28.75em) { /*screen resolution 450px*/
 
 /*MEDIUM SCREEN*/
 
@@ -58,14 +62,6 @@
 
 }
 
-@media only screen and (min-width: 21em) { /*screen resolution 350px*/
-
-	.unit-s-1-2 {
-		width: 50%;
-	}
-
-
-}
 
 @media only screen and (min-width: 48em) { /*screen resolution 770px*/
 
@@ -93,6 +89,10 @@
 	
 	.unit-l-5-6 {
 		width: 83.3333%;
+	}
+
+	.unit-l-1-4 {
+		width: 25%;
 	}
 
 }

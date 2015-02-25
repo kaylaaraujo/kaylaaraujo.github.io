@@ -95,12 +95,19 @@ header {
 .about {
 	background-color: #fff;
 	text-align: center;
+	height: 50em;
+}
+
+.about-section {
+	padding-top: 7em;
 }
 
 .about-content {
 	max-width: 500px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 17em;
+	margin-bottom: 10em;
 }
 
 .about p {
@@ -109,13 +116,13 @@ header {
 }
 
 .contact {
-	background-color: #FCD2C5;
-	padding: 1em 1em;
+	background-color: none;
+	padding: 4em 2em;
 	height: 300px;
 }
 
 .contact h1 {
-	color: #fff;
+	color: rgb(0,0,0);
 }
 
 .contact ul {
@@ -128,6 +135,10 @@ li {
 
 .p-about {
 	color: rgb(45,46,71);
+}
+
+.social-media {
+	padding-top: 2em;
 }
 
 /*NAVIGATION*/
@@ -184,6 +195,10 @@ nav > ul {
 	margin: 0;
 }
 
+nav ul li {
+	background-color: rgba(0,0,0,0);
+}
+
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -203,7 +218,7 @@ nav > ul {
 }
 
 .nav-bottom {
-	margin-top: 1.5em;
+	background-color: rgba(0,0,0,0);
 }
 
 .nav-top {
@@ -233,6 +248,17 @@ nav > ul {
 	padding: 0 3%;
 }
 
+.me-width {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+
+.me {
+	padding: 2%;
+}
+
 .port-img:hover,
 .port-img:focus,
 .port-img:active {
@@ -252,6 +278,40 @@ nav > ul {
 		height: 100%;
 		margin-bottom: 3em;
 	}
+
+	nav ul li {
+		background-color: black;
+		width: 100%;
+	}
+
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		padding: 2em 20px;
+	}
+
+	footer nav ul li {
+		background-color: #fff;
+	}
+
+
+	.nav-top {
+		margin-top: -0.5em;
+
+	}
+
+	.about-content {
+		width: 80%;
+	}
+
+	.contact {
+		height: 525px;
+	}
+
+	.about p {
+		font-size: 20px;
+	}
+
 }
 
 
@@ -262,8 +322,9 @@ nav > ul {
 		margin-left: 10%;
 	}
 	
-	.nav-top{
+	.nav-top {
 		padding-top: 0;
+		margin-top: -0.5em;
 	}
 	
 	.port-img {
@@ -272,11 +333,15 @@ nav > ul {
 	}
 	
 	.social {
-		padding: 0 2%;
+		padding: 0 6%;
+	}
+
+	.contact {
+		height: 300px;
 	}
 	
 	.contact ul {
-		max-width: 400px;
+		max-width: 600px;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -289,21 +354,28 @@ nav > ul {
 	.work h1 {
 		font-size: 34px;
 	}
-	
-	.contact h1 {
-		font-size: 34px;
+
+	.footer {
+		background-color: #fff;
 	}
-	
-	.about h1 {
-		font-size: 34px;
+
+	footer .nav a,
+	footer .nav a:link,
+	footer .nav a:visited {
+		color: rgba(5,25,47,1);
+	}
+
+	footer .nav a:hover,
+	footer .nav a:focus,
+	footer .nav a:active {
+		color: #FCD2C5;
+		background-color: rgba(0,0,0,0);
 	}
 
 
 }
 
 @media only screen and (min-width: 28.75em) { /*screen resolution 600px*/
-
-		
 	
 	.nav{
 		float: right;
@@ -316,6 +388,10 @@ nav > ul {
 		text-align: center;
 		width: 33.333%;
 	}
+
+	nav ul li {
+		background-color: rgba(0,0,0,0);
+	}
 	
 	.nav-btn,
 	.nav-btn:link,
@@ -327,7 +403,6 @@ nav > ul {
 		float: right;
 		max-height: 8rem;
 		margin-right: 2em;
-		padding-top: 1.5em;
 		max-width: 400px;
 	}
 	
@@ -344,6 +419,10 @@ nav > ul {
 		padding-top: 2em;
 	}
 
+	.contact {
+		height: 600px;
+	}
+
 }
 
 @media only screen and (min-width: 54.25em) {
@@ -354,10 +433,7 @@ nav > ul {
 	
 	.contact h1 {
 		font-size: 50px;
-	}
-	
-	.about h1 {
-		font-size: 50px;
+		margin-bottom: 2em;
 	}
 	
 	.about-content {
