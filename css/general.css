@@ -106,7 +106,7 @@ header {
 	max-width: 500px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 17em;
+	padding-top: 17em;
 	margin-bottom: 10em;
 }
 
@@ -462,7 +462,7 @@ nav ul li {
 	}
 
 	.about-content {
-		margin-top: 5em;
+		padding-top: 5em;
 	}
 
 	.contact {
@@ -533,7 +533,7 @@ nav ul li {
 	}
 
 	.about-content {
-		margin-top: 7em;
+		padding-top: 7em;
 	}
 
 	.about-section {
@@ -572,13 +572,13 @@ nav ul li {
 	
 	.about-content {
 		max-width: 600px;
-		margin-top: 14em;
+		padding-top: 10em;
 	}
 }
 
 @media only screen and (min-width: 70em) {
 	.about-content {
-		margin-top: 13em;
+		padding-top: 18em;
 	}
 
 }
@@ -606,8 +606,16 @@ nav ul li {
 		font-size: 70px;
 	}
 
+	.me-width {
+		width: 80%;
+	}
+
 	.about {
 		height: 1500px;
+	}
+
+	.about p {
+		font-size: 30px;
 	}
 	
 	.about h1 {
@@ -615,7 +623,8 @@ nav ul li {
 	}
 
 	.about-content {
-		margin-top: 20em;
+		max-width: 800px;
+		padding-top: 15em;
 	}
 
 	.social-media {
