@@ -50,7 +50,7 @@ header {
 }
 
 .home {
-	height: 800px;
+	height: 600px;
 	margin-bottom: 15em;
 }
 
@@ -428,6 +428,11 @@ nav ul li {
 
 @media only screen and (min-width: 28.75em) { /*screen resolution 600px*/
 	
+	.home {
+		height: 100vh;
+		display: block;
+	}
+
 	.nav{
 		float: right;
 		overflow: auto;
