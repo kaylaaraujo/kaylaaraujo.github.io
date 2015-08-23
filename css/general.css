@@ -293,7 +293,7 @@ nav ul li {
 	.nav a,
 	.nav a:link,
 	.nav a:visited {
-		padding: 1.25em 20px;
+		padding: 1.6em 20px 1.3em;
 	}
 
 	footer nav ul li {
@@ -365,7 +365,7 @@ nav ul li {
 @media only screen and (min-width: 20em) { /*screen resolution 450px*/
 	
 	.logo {
-		width: 100px;
+		width: 90px;
 		margin-left: 10%;
 	}
 	
@@ -514,7 +514,7 @@ nav ul li {
 @media only screen and (min-width: 48em) { /*screen resolution 770px*/
 	.logo {
 		top: 1em;
-		max-width: 150px;
+		max-width: 97px;
 	}
 
 	.cover-logo {
