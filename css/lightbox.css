@@ -250,14 +250,10 @@ figure.effect-goliath p {
   transform: translate3d(0,50px,0);
 }
 
-/*
-
 figure.effect-goliath:hover img {
   -webkit-transform: translate3d(0,-80px,0);
   transform: translate3d(0,-80px,0);
 }
-
-*/
 
 figure.effect-goliath:hover h2 {
   -webkit-transform: translate3d(0,-100px,0);
@@ -269,15 +265,6 @@ figure.effect-goliath:hover p {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-
-.caption-bg {
-	background-color: rgba(0,0,0,0.6);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,50px,0);
-	transform: translate3d(0,50px,0);
-}
-
 
 @media only screen and (min-width: 16em) { /*screen resolution 250px*/
   figure.effect-goliath p {
