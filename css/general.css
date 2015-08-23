@@ -429,7 +429,6 @@ nav ul li {
 @media only screen and (min-width: 28.75em) { /*screen resolution 600px*/
 	
 	.cover-logo {
-		margin-top: 4em;
 		width: 100%;
 	}
 
@@ -522,7 +521,7 @@ nav ul li {
 
 	.cover-logo {
 		max-width: 600px;
-		padding-top: 2em;
+		padding-top: 8em;
 	}
 
 	.contact {
