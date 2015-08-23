@@ -213,7 +213,7 @@ body:after {
 /* GOLIATH HOVER STATE */
 
 figure.effect-goliath {
-  background: rgba (0,0,0,1);
+  background: rgba (0,0,0,0.6);
   margin-bottom: -0.45em;
 }
 
@@ -249,7 +249,7 @@ figure.effect-goliath p {
   -webkit-transform: translate3d(0,50px,0);
   transform: translate3d(0,50px,0);
 }
-
+/*
 figure.effect-goliath:hover img {
   position:relative;
   top:0px;
@@ -257,9 +257,8 @@ figure.effect-goliath:hover img {
   height:400px;
   background:#00000;
   opacity:0.5;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 }
-
+*/
 
 figure.effect-goliath:hover h2 {
   -webkit-transform: translate3d(0,-100px,0);
