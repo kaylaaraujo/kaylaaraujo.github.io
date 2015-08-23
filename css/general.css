@@ -30,7 +30,7 @@ body {
 }
 
 header {
-	height: 5em;
+	height: 4em;
 	background-color: rgba(5,25,47,0.95);
 	position: fixed;
 	width: 100%;
@@ -81,7 +81,7 @@ header {
 
 .logo {
 	display: block;
-	margin: 0.5em 3%;
+	margin: 0 3%;
 	width: 100px;
 	float: left;
 }
@@ -293,7 +293,7 @@ nav ul li {
 	.nav a,
 	.nav a:link,
 	.nav a:visited {
-		padding: 2em 20px;
+		padding: 1.25em 20px;
 	}
 
 	footer nav ul li {
@@ -371,7 +371,6 @@ nav ul li {
 	
 	.nav-top {
 		padding-top: 0;
-		margin-top: -0.5em;
 	}
 	
 	.port-img {
@@ -440,7 +439,6 @@ nav ul li {
 	.nav{
 		float: right;
 		overflow: auto;
-		margin-bottom: 2em;
 	}
 	
 	.nav li{
