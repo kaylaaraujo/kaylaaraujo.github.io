@@ -218,7 +218,7 @@ nav#navigation a.active:after {
 	color: #ffffff;
 	font-size: 60px;
 	font-weight: normal;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 
 }
