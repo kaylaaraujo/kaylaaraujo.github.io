@@ -958,7 +958,7 @@ div.footer .right li i {
 	left: 0px;
 	padding: 0px;
 	top: 0px;
-	position: static;
+	background-attachment: fixed;
 	}
 }
 
