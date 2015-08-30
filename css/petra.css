@@ -828,7 +828,7 @@ div.contact-info p {
 }
 
 div.footer {
-	background-color: #111111;
+	background-color: rgba(87,75,75,1);
 	padding: 40px 0 90px;
 }
 
@@ -864,11 +864,11 @@ div.footer .arrow a:hover {
 }
 
 div.footer .footer-logo {
-	background-image: url(../images/logo.png);
+	background-image: url(../images/logo.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	height: 15px;
+	height: 55px;
 	margin-bottom: 10px;
 	margin-top: 15px;
 	position:relative;
@@ -889,12 +889,10 @@ div.footer .right {
 
 div.footer .right li {
 	background-color: transparent;
-	border: 2px solid #444444;
-	border-radius: 9999px;
 	color: #444444;
 	cursor: pointer;
 	display: inline;
-	font-size: 30px;
+	font-size: 40px;
 	margin-left: 20px;
 	padding: 12px 17px 10px;
 }
