@@ -9,6 +9,10 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
+.slider-img {
+	width: 550px;
+	height: 550px;
+}
  
 /* Browser Resets */
 .flex-container a:active,
