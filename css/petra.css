@@ -147,7 +147,7 @@ nav#navigation a.active:after {
 }
 
 .home .overlay {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    /*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);*/
     position: absolute;
     width: 100%;
     z-index: 10;
