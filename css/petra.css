@@ -37,10 +37,11 @@ header {
 .header {
 	position:relative;
 	width:100%;
+	background-color: rgba(87,75,75,.5);
 }
 
 .logo {
-	background-image: url(../images/logo.png);
+	background-image: url(../images/logo.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
