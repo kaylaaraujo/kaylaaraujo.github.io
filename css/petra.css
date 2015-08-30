@@ -949,6 +949,19 @@ div.footer .right li i {
 
 }
 
+@media screen and (max-width: 980px) {
+	.home .image {
+	background-image: url(../images/backgrounds/home.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	left: 0px;
+	padding: 0px;
+	top: 0px;
+	position: static;
+	}
+}
+
 
 /*iPad lanscape*/
 @media screen and (max-device-width: 960px) {
