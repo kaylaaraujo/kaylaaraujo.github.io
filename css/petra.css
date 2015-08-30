@@ -828,7 +828,7 @@ div.contact-info p {
 }
 
 div.footer {
-	background-color: rgba(87,75,75,1);
+	background-color: #000;
 	padding: 40px 0 90px;
 }
 
@@ -873,6 +873,7 @@ div.footer .footer-logo {
 	margin-top: 15px;
 	position:relative;
 	width: 90px;
+	opacity:.5;
 }
 
 div.footer .footer-slogan {
