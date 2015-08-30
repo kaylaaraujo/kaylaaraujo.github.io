@@ -952,13 +952,12 @@ div.footer .right li i {
 @media screen and (max-width: 980px) {
 	.home .image {
 	background-image: url(../images/backgrounds/home.jpg);
-	background-position: center center;
+	background-position: initial;
 	background-repeat: no-repeat;
 	background-size: cover;
 	left: 0px;
 	padding: 0px;
 	top: 0px;
-	background-attachment: fixed;
 	}
 }
 
