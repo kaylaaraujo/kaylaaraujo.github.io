@@ -309,9 +309,9 @@ nav#navigation a.active:after {
 div.about p {
 	color:#999;
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 33px;
 	margin: 0 auto;
 	width: 640px;
 }
@@ -419,10 +419,10 @@ div.service p {
 	border-top: 1px solid #cccccc;
 	display: table-cell;
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.2px;
-	line-height: 30px;
+	line-height: 29px;
 	margin: 0 auto;
 	padding-top: 25px;
 	position: relative;
