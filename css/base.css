@@ -217,6 +217,7 @@ button {
 button:hover {
 	background: #AF9696;
 	color: #ffffff;
+	border-color: #AF9696;
 }
 
 /* #Misc ========================================= */
