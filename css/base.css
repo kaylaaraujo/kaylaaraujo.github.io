@@ -221,6 +221,28 @@ a,.errorForm {
 	border-color: #AF9696;
 }
 
+button {
+	background: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: "QuickSand";
+	font-size: 14px;
+	font-weight: 700;
+	outline: none;
+	padding: 18px 20px;
+	text-transform: uppercase;
+	min-width: 200px;
+	transition: all .2s ease-in-out;
+}
+
+button:hover {
+	background: #AF9696;
+	color: #ffffff;
+	border-color: #AF9696;
+}
+
 /* #Misc ========================================= */
 .remove-bottom { 
 	margin-bottom: 0 !important; 
