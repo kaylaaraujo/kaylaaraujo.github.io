@@ -40,6 +40,10 @@ header {
 	background-color: rgba(87,75,75,.5);
 }
 
+.hi-mobile {
+	display: none;
+}
+
 .logo {
 	background-image: url(../images/logo.svg);
 	background-position: center center;
@@ -1291,6 +1295,14 @@ div.footer .right li i {
 		-moz-text-size-adjust:none;
 		-ms-text-size-adjust:none;
 		overflow-x: hidden;
+	}
+
+	.hi-regular {
+		display: none;
+	}
+
+	.hi-mobile {
+		display: block;
 	}
 
 	#wrapper {
