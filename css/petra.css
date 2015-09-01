@@ -1304,11 +1304,11 @@ div.footer .right li i {
 		overflow-x: hidden;
 	}
 
-	.hi-regular {
+	.home .text .inner {
 		display: none;
 	}
 
-	.hi-mobile {
+	.home .text .inner2 {
 		display: table-cell;
 	}
 
