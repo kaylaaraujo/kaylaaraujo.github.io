@@ -803,6 +803,12 @@ div.contact-info p {
 .form input[type="text"]:-ms-input-placeholder { color: #ffffff; }
 .form input[type="text"]:-moz-placeholder { color: #ffffff; }
 
+.form input[type="text"]::-webkit-input-name { color: #ffffff; }
+.form input[type="text"]::-moz-name { color: #ffffff; }
+.form input[type="text"]:-ms-input-name { color: #ffffff; }
+.form input[type="text"]:-moz-name { color: #ffffff; }
+
+
 .form textarea {
     height: 170px;
     overflow: auto;
