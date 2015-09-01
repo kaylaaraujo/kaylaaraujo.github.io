@@ -1290,6 +1290,16 @@ div.footer .right li i {
 
 }
 
+@media only screen and (max-width:620px) {
+	.home .text .inner {
+		display: none;
+	}
+
+	.home .text .inner2 {
+		display: table-cell;
+	}
+}
+
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
 	
@@ -1302,14 +1312,6 @@ div.footer .right li i {
 		-moz-text-size-adjust:none;
 		-ms-text-size-adjust:none;
 		overflow-x: hidden;
-	}
-
-	.home .text .inner {
-		display: none;
-	}
-
-	.home .text .inner2 {
-		display: table-cell;
 	}
 
 	#wrapper {
