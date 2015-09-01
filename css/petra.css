@@ -803,9 +803,10 @@ div.contact-info p {
 .form input[type="text"]:-ms-input-placeholder { color: #ffffff; }
 .form input[type="text"]:-moz-placeholder { color: #ffffff; }
 
-.form p {
-	color: #ffffff;
-}
+.form textarea::-webkit-input-placeholder { color: #ffffff; }
+.form textarea::-moz-placeholder { color: #ffffff; }
+.form textarea:-ms-input-placeholder { color: #ffffff; }
+.form textarea:-moz-placeholder { color: #ffffff; }
 
 
 .form textarea {
