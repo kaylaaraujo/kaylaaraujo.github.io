@@ -40,11 +40,6 @@ header {
 	background-color: rgba(87,75,75,.5);
 }
 
-.centered {
-	margin-right: auto;
-	margin-left: auto;
-}
-
 .hi-mobile {
 	display: none;
 }
