@@ -20,7 +20,7 @@ if($to) {
 	
 	$html = utf8_decode($html);
 	
-	mail($to, "karaujo06@hotmail.com" . $subject, $html, $headers);
+	mail($to, "Petra Demo - " . $subject, $html, $headers);
 	
 	if ($html)
 		echo 'ok';
