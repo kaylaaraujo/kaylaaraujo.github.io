@@ -177,7 +177,7 @@ nav#navigation a.active:after {
 	background-image: url(../images/backgrounds/website-home.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	left: 0px;
 	padding: 0px;
 	top: 0px;
