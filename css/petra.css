@@ -987,6 +987,23 @@ div.footer .right li i {
 		vertical-align: bottom;
 		padding-bottom: 200px;
 	}
+
+	.home h1 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	}
+
+.home p {
+	color: #ffffff;
+	font-family: "QuickSand";
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	}
 }
 
 
