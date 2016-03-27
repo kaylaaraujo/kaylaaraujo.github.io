@@ -976,19 +976,6 @@ div.footer .right li i {
 
 }
 
-@media screen and (max-width: 950px) {
-	.home .image {
-	background-image: url(../images/backgrounds/website-home950px.jpg);
-	background-position: initial;
-	}
-
-	.home .text .inner {
-		padding-left: 0px;
-		vertical-align: bottom;
-		padding-bottom: 200px;
-	}
-}
-
 
 /*iPad lanscape*/
 @media screen and (max-device-width: 960px) {
@@ -1007,6 +994,18 @@ div.footer .right li i {
 		display: none;
 	}
 	/*Home*/
+
+	.home .image {
+		background-image: url(../images/backgrounds/website-home950px.jpg);
+		background-position: initial;
+	}
+
+	.home .text .inner {
+		padding-left: 0px;
+		vertical-align: bottom;
+		padding-bottom: 200px;
+	}
+}
 
 	/*Contact*/
 	section.contact {
@@ -1047,7 +1046,7 @@ div.footer .right li i {
 
 /* Tablet Portrait size -> standard 960 */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+
 	.home video {		
 		display: none;
 	}
@@ -1125,7 +1124,7 @@ div.footer .right li i {
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	#wrapper {
 		overflow: hidden;
 	}
@@ -1143,11 +1142,11 @@ div.footer .right li i {
 	}
 
 	.home h1 {
-		font-size: 40px;
+		font-size: 20px;
 	}
 
 	.home p {
-		font-size: 16px;
+		font-size: 10px;
 	}
 
 	.home video {
