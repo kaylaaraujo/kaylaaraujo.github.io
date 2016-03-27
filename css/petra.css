@@ -957,7 +957,11 @@ div.footer .right li i {
 /*Preloader*/
 
 
-
+@media only screen and (max-width: 1160px) {
+	.home .text .inner {
+		padding-left: 600px;
+	}
+}
 
 /*Landscape 1024 X 600 */
 @media only screen and (min-width: 1000px) and (max-width: 1030px) {
