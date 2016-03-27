@@ -976,27 +976,6 @@ div.footer .right li i {
 
 }
 
-@media screen and (max-width: 950px) {
-	.home .image {
-	background-image: url(../images/backgrounds/website-home950px.jpg);
-	background-position: initial;
-	}
-
-	.home .text .inner {
-		padding-left: 0px;
-		vertical-align: bottom;
-		padding-bottom: 150px;
-	}
-
-	.home h1 {
-		display: none;
-	}
-
-	.home h2 {
-		display: none;
-	}
-}
-
 
 /*iPad lanscape*/
 @media screen and (max-device-width: 960px) {
@@ -1014,6 +993,26 @@ div.footer .right li i {
 	.home video {
 		display: none;
 	}
+
+	.home .image {
+	background-image: url(../images/backgrounds/website-home960.jpg);
+	background-position: initial;
+	}
+
+	.home .text .inner {
+		padding-left: 0px;
+		vertical-align: bottom;
+		padding-bottom: 150px;
+	}
+
+	.home h1 {
+		display: none;
+	}
+
+	.home h2 {
+		display: none;
+	}
+}
 	/*Home*/
 
 	/*Contact*/
