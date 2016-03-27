@@ -989,16 +989,11 @@ div.footer .right li i {
 	}
 
 	.home h1 {
-	color: #ffffff;
-	font-size: 50px;
-	font-weight: normal;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+	display: none;
 	}
 
 .home h2 {
-	color: #ffffff;
-	font-size: 30px;
+	display: none;
 	}
 }
 
