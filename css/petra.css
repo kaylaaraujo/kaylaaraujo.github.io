@@ -977,9 +977,13 @@ div.footer .right li i {
 }
 
 @media screen and (max-width: 980px) {
-	.home .image {
+	/*.home .image {
 	background-image: url(../images/backgrounds/home-980px.jpg);
 	background-position: initial;
+	}*/
+
+	.home .text .inner {
+		padding-left: 500px;
 	}
 }
 
