@@ -984,6 +984,8 @@ div.footer .right li i {
 
 	.home .text .inner {
 		padding-left: 0px;
+		vertical-align: bottom;
+		padding-bottom: 200px;
 	}
 }
 
