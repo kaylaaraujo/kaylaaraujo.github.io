@@ -1,3 +1,4 @@
+
 /*
 * Petra Creative One Page Template V1.0
 * Version 1.0
@@ -174,7 +175,7 @@ nav#navigation a.active:after {
 }
 
 .home .image {
-	background-image: url(../images/backgrounds/website-home.jpg);
+	background-image: url(../images/backgrounds/home.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -216,7 +217,6 @@ nav#navigation a.active:after {
 	width: 640px;
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 700px;
 }
 
 .home .text .inner2 {
@@ -227,7 +227,7 @@ nav#navigation a.active:after {
 }
 
 .home h1 {
-	color: #AF9696;
+	color: #ffffff;
 	font-size: 60px;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -957,11 +957,7 @@ div.footer .right li i {
 /*Preloader*/
 
 
-@media only screen and (max-width: 1160px) {
-	.home .text .inner {
-		padding-left: 600px;
-	}
-}
+
 
 /*Landscape 1024 X 600 */
 @media only screen and (min-width: 1000px) and (max-width: 1030px) {
@@ -974,6 +970,13 @@ div.footer .right li i {
 		opacity: 0;
 	}
 
+}
+
+@media screen and (max-width: 980px) {
+	.home .image {
+	background-image: url(../images/backgrounds/home-980px.jpg);
+	background-position: initial;
+	}
 }
 
 
@@ -993,26 +996,6 @@ div.footer .right li i {
 	.home video {
 		display: none;
 	}
-
-	.home .image {
-	background-image: url(../images/backgrounds/website-home960.jpg);
-	background-position: initial;
-	}
-
-	.home .text .inner {
-		padding-left: 0px;
-		vertical-align: bottom;
-		padding-bottom: 150px;
-	}
-
-	.home h1 {
-		display: none;
-	}
-
-	.home h2 {
-		display: none;
-	}
-}
 	/*Home*/
 
 	/*Contact*/
@@ -1326,8 +1309,6 @@ div.footer .right li i {
 
 	.home .text .inner2 {
 		display: table-cell;
-		vertical-align: bottom;
-    	padding-bottom: 100px;
 	}
 }
 

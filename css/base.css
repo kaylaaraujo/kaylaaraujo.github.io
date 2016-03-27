@@ -158,11 +158,11 @@ h1 {
 }
 
 .home h2 {
-	color: #bfabab;
+	color: #efeaea;
 	font-family: "Quicksand";
 	font-weight: normal;
 	font-size: 30px;
-	margin: 25px 0 80px;
+	margin: 32px 0 80px;
 }
 
 h2 {
@@ -230,9 +230,9 @@ a,.errorForm {
 
 .button {
 	background: transparent;
-	border: 2px solid #AF9696;
+	border: 2px solid #ffffff;
 	border-radius: 2px;
-	color: #AF9696;
+	color: #ffffff;
 	margin-top: 50px;
 	cursor: pointer;
 	font-family: "QuickSand";
@@ -313,13 +313,3 @@ section.contact .offset {
 	background-color: #ffffff !important;
 }
 /*Slider*/
-
-
-
-@media screen and (max-width: 950px) {
-	.button {
-		border: 2px solid #ffffff;
-		color: #ffffff;
-	}
-}
-
