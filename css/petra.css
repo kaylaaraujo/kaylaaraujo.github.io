@@ -216,6 +216,7 @@ nav#navigation a.active:after {
 	width: 640px;
 	display: table-cell;
 	vertical-align: middle;
+	padding-left: 700px;
 }
 
 .home .text .inner2 {
@@ -226,7 +227,7 @@ nav#navigation a.active:after {
 }
 
 .home h1 {
-	color: #ffffff;
+	color: #AF9696;
 	font-size: 60px;
 	font-weight: normal;
 	margin-bottom: 10px;
