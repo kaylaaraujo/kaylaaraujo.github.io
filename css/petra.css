@@ -565,6 +565,11 @@ section.works .contact-button {
     z-index: 2;
 }
 
+.info {
+	margin-top: 25px;
+}
+
+
 .work .info h3 {
 	color: #000000;
     font-size: 24px;
