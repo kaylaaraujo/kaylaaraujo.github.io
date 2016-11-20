@@ -691,7 +691,7 @@ section.works .contact-button {
 .work-preview .youtube, .work-preview .vimeo, .work-preview .soundcloud, .work-preview video, .work-preview .slider, .work-preview .image, .work-preview img {
 	background-color: #000000;
 	height: 100%;
-	width: 500px;
+	width: 880px;
 }
 
 .work-preview .audio {
