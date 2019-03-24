@@ -221,7 +221,7 @@ nav#navigation a.active:after {
 
 .home .text .inner img {
 	text-align: center;
-	width: 450px;
+	width: 300px;
 	display: table-cell;
 	vertical-align: middle;
 }
