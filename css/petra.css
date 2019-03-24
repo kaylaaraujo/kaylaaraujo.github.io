@@ -229,8 +229,9 @@ nav#navigation a.active:after {
 .home h1 {
 	color: #ffffff;
 	font-size: 60px;
-	font-weight: normal;
+	font-weight: bold;
 	margin-bottom: 10px;
+	letter-spacing: 0.5px;
 }
 
 .home p {
