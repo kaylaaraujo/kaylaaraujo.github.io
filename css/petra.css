@@ -527,7 +527,7 @@ section.works {
 }
 
 section.works .title {
-	color: #ffffff;
+	color: #000;
 }
 
 section.works .title:after {
