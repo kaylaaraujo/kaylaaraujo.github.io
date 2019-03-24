@@ -589,19 +589,19 @@ section.works .contact-button {
 	color: #ffffff;
 	font-family: "Open Sans";
 	font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.2px;
 }
 
 .work .info p:after {
-	border-bottom: 2px solid #000000;
+	border-bottom: 2px solid #ffffff;
     content: "";
     display: block;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     top: 12px;
-    width: 14px;
+    width: 16px;
     z-index: 0;
 }
 
