@@ -234,11 +234,11 @@ nav#navigation a.active:after {
 }
 
 .home h1 {
-	color: #ffffff;
-	font-family: "Open Sans";
+	color: #fffff;
+	font-family: "Quicksand";
 	font-size: 60px;
-	font-weight: normal;
-	margin-bottom: 10px;
+	font-weight: bold;
+	letter-spacing: -1px;
 }
 
 .home p {
