@@ -531,7 +531,7 @@ section.works .title {
 }
 
 section.works .title:after {
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #000
 }
 
 section.works .contact-button {
