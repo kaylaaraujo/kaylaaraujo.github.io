@@ -52,7 +52,7 @@ header {
 	background-size: cover;
 	cursor: pointer;
 	height: 55px;
-	margin: 6px 0;
+	margin: 8px 0;
 	width: 90px;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
@@ -899,13 +899,13 @@ div.footer .arrow a:hover {
 }
 
 div.footer .footer-logo {
-	background-image: url(../images/logo.svg);
+	background-image: url(../images/kayla-logo-2019.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
 	height: 55px;
 	margin-bottom: 10px;
-	margin-top: 15px;
+	margin-top: 18px;
 	position:relative;
 	width: 90px;
 	opacity:.5;
