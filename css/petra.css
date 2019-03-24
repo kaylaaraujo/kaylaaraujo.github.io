@@ -582,7 +582,8 @@ section.works .contact-button {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px;
-    margin-bottom: 7px;
+    line-height: 25px;
+    margin-bottom: 15px;
 }
 
 .work .info p {
@@ -601,7 +602,7 @@ section.works .contact-button {
     margin-left: auto;
     position: relative;
     top: 12px;
-    width: 16px;
+    width: 18px;
     z-index: 0;
 }
 
