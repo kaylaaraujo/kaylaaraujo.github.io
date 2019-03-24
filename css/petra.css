@@ -219,6 +219,13 @@ nav#navigation a.active:after {
 	vertical-align: middle;
 }
 
+.home .text .inner img {
+	text-align: center;
+	width: 640px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .home .text .inner2 {
 	text-align: center;
 	width: 400px;
