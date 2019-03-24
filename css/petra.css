@@ -228,10 +228,10 @@ nav#navigation a.active:after {
 
 .home h1 {
 	color: #ffffff;
+	font-family: "Open Sans";
 	font-size: 60px;
-	font-weight: bold;
+	font-weight: normal;
 	margin-bottom: 10px;
-	letter-spacing: 0.5px;
 }
 
 .home p {
