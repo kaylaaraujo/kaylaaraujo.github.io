@@ -533,11 +533,11 @@ section.works {
 }
 
 section.works .title {
-	color: #000;
+	color: #ffffff;
 }
 
 section.works .title:after {
-	border-bottom: 2px solid #000
+	border-bottom: 2px solid #ffffff;
 }
 
 section.works .contact-button {
