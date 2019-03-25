@@ -533,7 +533,7 @@ section.works {
 }
 
 
-section.works .title:after {
+.work-preview .title:after {
 	border-bottom: 2px solid #ffffff;
 }
 
