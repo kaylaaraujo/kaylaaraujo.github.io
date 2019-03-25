@@ -593,6 +593,7 @@ section.works .contact-button {
     font-size: 16px;
     letter-spacing: 0.2px;
     line-height: 10px;
+    margin-bottom: 15px;
 }
 
 .work .info p:after {
