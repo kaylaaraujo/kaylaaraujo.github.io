@@ -592,8 +592,6 @@ section.works .contact-button {
 	font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.2px;
-    line-height: 10px;
-    margin-bottom: 15px;
 }
 
 .work .info p:after {
@@ -660,7 +658,8 @@ section.works .contact-button {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.2px;
-	line-height: 30px;
+	line-height: 20px;
+	margin-bottom: 25px;
 }
 
 .work-preview .social-icons {
