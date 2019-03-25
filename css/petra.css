@@ -755,7 +755,7 @@ section.contact {
 }
 
 section.contact .overlay {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    background: none repeat scroll 0 0 rgba(17, 17, 17, 0.45);
 }
 
 section.contact .title {
