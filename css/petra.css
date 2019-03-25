@@ -532,9 +532,6 @@ section.works {
 	background-color: #ffffff;
 }
 
-section.works .title {
-	color: #ffffff;
-}
 
 section.works .title:after {
 	border-bottom: 2px solid #ffffff;
