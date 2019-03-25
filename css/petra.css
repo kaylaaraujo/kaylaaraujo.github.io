@@ -228,7 +228,7 @@ nav#navigation a.active:after {
 
 .home h1 {
 	color: #ffffff;
-	font-family: 'Khula', sans-serif;
+	font-family: 'Montserrat', 'Khula', 'Gotham', 'Arial',  sans-serif;
 	font-size: 60px;
 	font-weight: bold;
 	letter-spacing: -1px;
@@ -236,7 +236,7 @@ nav#navigation a.active:after {
 
 .home h2 {
 	color: #ffffff;
-	font-family: 'Khula', sans-serif;
+	font-family: 'Montserrat', 'Khula', 'Gotham', 'Arial',  sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 }
