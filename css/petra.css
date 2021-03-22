@@ -1351,7 +1351,11 @@ div.footer .right li i {
 	}
 
 	.home h1 {
-		font-size: 100px;
+		font-size: 40px;
+	}
+
+	.home h2 {
+		font-size: 20px;
 	}
 
 
