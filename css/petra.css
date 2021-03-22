@@ -227,6 +227,13 @@ nav#navigation a.active:after {
 	vertical-align: middle;
 }
 
+.inner2 h1 {
+	color: #ffffff;
+	font-family: 'Montserrat', 'Khula', 'Gotham', 'Arial',  sans-serif;
+	font-weight: bolder;
+	letter-spacing: -1px;
+}
+
 .home h1 {
 	color: #ffffff;
 	font-family: 'Montserrat', 'Khula', 'Gotham', 'Arial',  sans-serif;
@@ -987,7 +994,6 @@ div.footer .right li i {
 @media screen and (max-width: 980px) {
 	.home .image {
 	background-image: url(../images/backgrounds/kayla-26-72dpi.jpg);
-	background-position: initial;
 	}
 }
 
@@ -1315,9 +1321,6 @@ div.footer .right li i {
 }
 
 @media only screen and (max-width:620px) {
-	.home .text .inner {
-		display: none;
-	}
 
 	.home .text .inner2 {
 		display: table-cell;
