@@ -220,18 +220,8 @@ nav#navigation a.active:after {
 	padding-bottom: 10rem;
 }
 
-.home .text .inner2 {
-	text-align: center;
-	width: 400px;
+.home .inner-mobile {
 	display: none;
-	vertical-align: middle;
-}
-
-.inner2 h1 {
-	color: #ffffff;
-	font-family: 'Montserrat', 'Khula', 'Gotham', 'Arial',  sans-serif;
-	font-weight: bolder;
-	letter-spacing: -1px;
 }
 
 .home h1 {
@@ -1352,9 +1342,21 @@ div.footer .right li i {
 	}
 	
 	/*--Home--*/
-	.home h1 {
-		font-size: 36px;
+	
+	.home .inner {
+		display: none;
 	}
+
+	.home .inner-mobile {
+		padding-bottom: 5rem;
+		display: table-cell;
+		vertical-align: bottom;
+	}
+
+	.home h1 {
+		font-size: 100px;
+	}
+
 
 	.home p {
 		font-size: 14px;
