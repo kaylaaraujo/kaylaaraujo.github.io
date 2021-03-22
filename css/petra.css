@@ -220,9 +220,6 @@ nav#navigation a.active:after {
 	padding-bottom: 10rem;
 }
 
-.home .inner-mobile {
-	display: none;
-}
 
 .home h1 {
 	color: #ffffff;
