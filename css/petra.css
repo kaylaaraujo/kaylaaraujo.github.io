@@ -1325,6 +1325,12 @@ div.footer .right li i {
 	.home .text .inner {
 		padding-bottom: 5rem;
 	}
+
+	.inner {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
