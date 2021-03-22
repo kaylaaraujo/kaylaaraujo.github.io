@@ -216,7 +216,8 @@ nav#navigation a.active:after {
 	text-align: center;
 	width: 640px;
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: bottom;
+	padding-bottom: 10rem;
 }
 
 .home .text .inner2 {
