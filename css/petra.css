@@ -38,7 +38,7 @@ header {
 .header {
 	position:relative;
 	width:100%;
-	background-color: rgba(255,255,255,.85);
+	background-color: rgba(255,255,255,0);
 }
 
 .hi-mobile {
@@ -76,7 +76,7 @@ nav#navigation li {
 }
 
 nav#navigation li a {
-    color: #ffffff;
+    color: #e7c1c8;
     font-family: "QuickSand";
     font-size: 14px;
     display: block;
@@ -391,6 +391,8 @@ div.team p {
 
 
 /*Services*/
+
+
 div.service {
 	display: table;
 	margin-top: 40px;
@@ -552,7 +554,7 @@ section.works .contact-button {
 }
 
 .work .info {
-    background: rgba(87,75,75,.95);
+    background: rgba(241,184,71,.95);
     height: 100%;
 	left: 0;
     position: absolute;
