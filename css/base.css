@@ -206,8 +206,8 @@ a,.errorForm {
 	color: #ffffff;
 	cursor: pointer;
 	font-family: "QuickSand";
-	font-size: 27px;
-	font-weight: normal;
+	font-size: 14px;
+	font-weight: 700;
 	outline: none;
 	padding: 18px 20px;
 	margin-right: auto;
@@ -218,15 +218,12 @@ a,.errorForm {
 	transition: all .1s ease-in-out;
 }
 
-.email-button h2 {
-	color: #ffffff;
-}
 
 .email-button:hover {
-	background: #AF9696;
-	color: #ffffff;
-	border-color: #AF9696;
+	color: #f1b847;
+	border-color: #f1b847;
 }
+
 
 .button {
 	background: transparent;
@@ -246,9 +243,8 @@ a,.errorForm {
 }
 
 .button:hover {
-	background: #AF9696;
-	color: #ffffff;
-	border-color: #AF9696;
+	color: #f1b847;
+	border-color: #f1b847;
 }
 
 button {
@@ -268,9 +264,8 @@ button {
 }
 
 button:hover {
-	background: #AF9696;
-	color: #ffffff;
-	border-color: #AF9696;
+	color: #f1b847;
+	border-color: #f1b847;
 }
 
 /* #Misc ========================================= */

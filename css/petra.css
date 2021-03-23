@@ -76,7 +76,7 @@ nav#navigation li {
 }
 
 nav#navigation li a {
-    color: #e7c1c8;
+    color: #ffffff;
     font-family: "QuickSand";
     font-size: 14px;
     display: block;
@@ -102,18 +102,18 @@ nav#navigation a:after {
 }
 
 nav#navigation a.active {
-    color: #878787;
+    color: #ffffff;
 }
 
 nav#navigation a.active:after {
-	border-bottom: 2px solid #878787;
+	border-bottom: 2px solid #ffffff;
     content: "";
     display: block;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     top: 6px;
-    width: 14px;
+    width: 20px;
     z-index: 0;
 }
 
