@@ -326,7 +326,7 @@ div.about p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 33px;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 	width: 640px;
 }
 
@@ -859,7 +859,7 @@ div.contact-info p {
 }
 
 div.footer {
-	background-color: #000;
+	background-color: #ffffff;
 	padding: 40px 0 30px;
 }
 
