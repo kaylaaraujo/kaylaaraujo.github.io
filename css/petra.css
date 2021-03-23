@@ -752,7 +752,7 @@ section.contact {
 }
 
 section.contact .overlay {
-    background: none repeat scroll 0 0 rgba(17, 17, 17, 0.45);
+    background: none repeat scroll 0 0 rgba(241,184,71, 0.90);
 }
 
 section.contact .title {
@@ -860,12 +860,9 @@ div.contact-info p {
 
 div.footer {
 	background-color: #000;
-	padding: 40px 0 90px;
+	padding: 40px 0 30px;
 }
 
-div.footer .arrow {
-	padding-bottom: 30px;
-}
 
 div.footer .arrow a {
 	background-image: url(../images/arrow-top.png);
@@ -900,8 +897,6 @@ div.footer .footer-logo {
 	background-position: center center;
 	background-size: contain;
 	height: 55px;
-	margin-bottom: 10px;
-	margin-top: 18px;
 	position:relative;
 	width: 90px;
 	opacity:.5;
@@ -926,7 +921,10 @@ div.footer .right li {
 	display: inline;
 	font-size: 40px;
 	margin-left: 20px;
-	padding: 12px 17px 10px;
+}
+
+div.footer ul {
+	margin: 0;
 }
 
 div.footer .right li:hover {
