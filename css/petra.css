@@ -865,7 +865,7 @@ div.footer {
 
 
 div.footer .arrow a {
-	background-image: url(../images/arrow-top.png);
+	background-image: url(../images/arrow-top-pink.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -888,7 +888,7 @@ div.footer .arrow a {
 }
 
 div.footer .arrow a:hover {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 div.footer .footer-logo {
