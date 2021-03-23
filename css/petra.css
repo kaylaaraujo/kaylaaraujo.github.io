@@ -268,7 +268,7 @@ nav#navigation a.active:after {
 }
 
 .home .arrow a {
-	background-image: url(../images/arrow-bottom.png);
+	background-image: url(../images/arrow-top-pink.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -892,7 +892,7 @@ div.footer .arrow a:hover {
 }
 
 div.footer .footer-logo {
-	background-image: url(../images/kayla-logo-2019.svg);
+	background-image: url(../images/kayla-logo-2019-white.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
